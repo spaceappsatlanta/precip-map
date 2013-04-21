@@ -212,8 +212,9 @@ function setup_control()
         .attr("y", -6)
         .attr("height", 50);
 
-    brush.extent([precip_data[0].date, precip_data[precip_data.length - 1].date]);
-    console.log(brush.extent());
+    brush.extent([precip_data[35].date, 
+                  precip_data[40].date]);
+    control.select(".brush").call(brush);
 
     var pending_timeout = null;
     function brushed_handler() {

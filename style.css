@@ -15,7 +15,7 @@ svg {
 }
 
 .map path {
-  stroke: white;
-  stroke-width: 0.25px;
-  fill: grey;
+  stroke: black;
+  stroke-width: 1.5px;
+  fill: #ddd;
 }
