@@ -1,0 +1,12 @@
+.cell {
+    stroke-width: 0;
+}
+svg {
+    font: 10px sans-serif;
+}
+
+.brush .extent {
+    stroke: #fff;
+    fill-opacity: .125;
+    shape-rendering: crispEdges;
+}
