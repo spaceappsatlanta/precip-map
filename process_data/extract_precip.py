@@ -1,5 +1,5 @@
 '''Quick and dirty script to extract "surfacePrecipitation" field from HDF
-   from the FTP archive. Creates a pickle in "precip.p" with the extracted
+   files from the FTP archive. Creates a pickle in "precip.p" with the extracted
    data.
 '''
 
